@@ -42,3 +42,44 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
+
+# 使用页面构建器的英文版由魏毅杰编写 
+##  User Guide
+### Using the Page Builder
+
+* Creating a Page
+
+* Navigate to the Page Builder in the left-hand menu of the admin panel.
+
+* Click New Page.
+
+* Enter a page name, select a page template (choose a predefined template if applicable, or select a blank template for custom design), then click Create.
+
+* Adding and Editing Elements
+
+* Drag-and-Drop Elements:
+
+* On the Page Builder interface, the left panel displays an Element Library containing various UI block elements (e.g., text boxes, images, buttons, forms).
+
+* Drag elements from the library to the editing canvas to add them to your page.
+
+* Editing Elements:
+
+* Select any element on the canvas to open its Property Panel on the right.
+
+* Configure:
+
+* Styling: Font styles, colors, sizes, margins, etc.
+
+* Content: Text, image URLs, etc.
+
+* Interactions: Link settings (e.g., button redirects).
+
+* Adjusting Page Layout:
+
+* Reposition elements by dragging them on the canvas.
+
+* Use Grid Layout Tools for precise alignment.
+
+* Add Rows and Columns to divide sections and build complex layouts.
+
