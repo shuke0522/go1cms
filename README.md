@@ -42,7 +42,7 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
-## 一、部署步骤​ （三）配置和启动​由韩民丰编写
+## 一、部署步骤​ （三）配置和启动​由韩民丰撰写
 ### Deployment Steps
 ### Configuration and Startup
 * Configure the site: Execute "bench new-site [site name]" to create a new site, such as "bench new-site mysite". After the creation is completed, edit the site configuration file sites/mysite/site_config.json to configure information such as database connections and mail servers. ​
