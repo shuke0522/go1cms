@@ -42,3 +42,14 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
+## 一、部署步骤​ （三）配置和启动​由韩民丰编写
+### Deployment Steps
+### Configuration and Startup
+* Configure the site: Execute "bench new-site [site name]" to create a new site, such as "bench new-site mysite". After the creation is completed, edit the site configuration file sites/mysite/site_config.json to configure information such as database connections and mail servers. ​
+* start the service: Under the bench directory, execute bench start to start the Frappe and Go1 CMS services. After the service is started, you can enter the Go1 CMS login page by using a browser to access the server IP address http://[:8000 (default port 8000, use the corresponding port if you have changed). ​
+
+## 中文版
+### 一、部署步骤​
+### （三）配置和启动​
+* 配置站点：执行 bench new-site [站点名称] 创建新站点，例如 bench new-site mysite。创建完成后，编辑站点配置文件 sites/mysite/site_config.json，配置数据库连接、邮件服务器等信息。​
+* 启动服务：在 bench 目录下，执行 bench start 启动 Frappe 和 Go1 CMS 服务。服务启动后，可通过浏览器访问 http://[服务器 IP 地址]:8000（默认端口为 8000，若有修改则使用对应端口）进入 Go1 CMS 登录页面。​
