@@ -42,3 +42,19 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
+## 部署步骤中环境准备以及中文翻译由许治贤撰写
+## (I) Deployment Steps
+### (II) Installation of Frappe and Go1 CMS
+
+* Create User and Directory: For security and standardization, create a dedicated user to run Frappe and Go1 CMS. Enter `sudo useradd -m frappe` in the terminal to create the user, then switch to that user using `sudo su - frappe`. Next, create a project directory, such as `mkdir frappe-bench && cd frappe-bench`.
+
+* Install Bench: Bench is a command-line tool for managing Frappe applications. Install it using `pip3 install bench`. After installation, initialize Bench by executing `bench init --frappe-branch version-14` (this example uses Frappe version 14; you may adjust according to your actual needs).
+
+* Install Go1 CMS: After entering the bench directory, execute `bench get-app go1_cms https://github.com/xzx719/go1cms.git` (replace with the actual repository address) to download the Go1 CMS application, then install the application by executing `bench install-app go1_cms`.
+
+
+## (一)部署步骤
+### （二）安装 Frappe 和 Go1 CMS​
+* 创建用户和目录：为了安全和规范，创建一个专门的用户用于运行 Frappe 和 Go1 CMS。在终端输入 sudo useradd -m frappe 创建用户，然后切换到该用户 sudo su - frappe。接着创建项目目录，如 mkdir frappe-bench && cd frappe-bench。​
+* 安装 Bench：Bench 是用于管理 Frappe 应用的命令行工具。使用 pip3 install bench 进行安装，安装完成后，初始化 Bench，执行 bench init --frappe-branch version-14（这里以 Frappe 14 版本为例，可根据实际需求调整）。​
+* 安装 Go1 CMS：进入 bench 目录后，执行 bench get-app go1_cms https://github.com/[Go1 CMS 仓库地址]（需替换为实际仓库地址）下载 Go1 CMS 应用，然后执行 bench install-app go1_cms 安装应用。​
