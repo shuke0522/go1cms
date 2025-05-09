@@ -42,6 +42,7 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
+
 master
 ## 以下介绍补全以及介绍翻译由莫汶颖撰写
 ## Introduce completions Masters Content Sections Header & Footer Section Design Settings
@@ -289,7 +290,6 @@ master
 
 * Install Go1 CMS: After entering the bench directory, execute `bench get-app go1_cms https://github.com/xzx719/go1cms.git` (replace with the actual repository address) to download the Go1 CMS application, then install the application by executing `bench install-app go1_cms`.
 
-
 ## (一)部署步骤
 ### （二）安装 Frappe 和 Go1 CMS
 * 创建用户和目录：为了安全和规范，创建一个专门的用户用于运行 Frappe 和 Go1 CMS。在终端输入 sudo useradd -m frappe 创建用户，然后切换到该用户 sudo su - frappe。接着创建项目目录，如 mkdir frappe-bench && cd frappe-bench。
@@ -297,3 +297,46 @@ master
 * 安装 Go1 CMS：进入 bench 目录后，执行 bench get-app go1_cms https://github.com/[Go1 CMS 仓库地址]（需替换为实际仓库地址）下载 Go1 CMS 应用，然后执行 bench install-app go1_cms 安装应用。
 
 master
+
+# 使用页面构建器的英文版由魏毅杰编写 
+##  User Guide
+### Using the Page Builder
+
+* Creating a Page
+
+* Navigate to the Page Builder in the left-hand menu of the admin panel.
+
+* Click New Page.
+
+* Enter a page name, select a page template (choose a predefined template if applicable, or select a blank template for custom design), then click Create.
+
+* Adding and Editing Elements
+
+* Drag-and-Drop Elements:
+
+* On the Page Builder interface, the left panel displays an Element Library containing various UI block elements (e.g., text boxes, images, buttons, forms).
+
+* Drag elements from the library to the editing canvas to add them to your page.
+
+* Editing Elements:
+
+* Select any element on the canvas to open its Property Panel on the right.
+
+* Configure:
+
+* Styling: Font styles, colors, sizes, margins, etc.
+
+* Content: Text, image URLs, etc.
+
+* Interactions: Link settings (e.g., button redirects).
+
+* Adjusting Page Layout:
+
+* Reposition elements by dragging them on the canvas.
+
+* Use Grid Layout Tools for precise alignment.
+
+* Add Rows and Columns to divide sections and build complex layouts.
+
+master
+
