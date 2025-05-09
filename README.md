@@ -312,6 +312,23 @@ master
 
 master
 
+## (以下第二点的（一） 是由何柏松撰写)
+### Usage Tutorial
+
+## Login and Basic Settings
+* Login: Log in to the Go1 CMS background using the administrator account and password set when creating the site.
+
+* Basic Settings: After logging in, go to the "Settings" module. Here, you can set the basic information of the website, such as the website name, slogan, LOGO, etc. Configure SEO parameters, including page titles, meta descriptions, keywords, etc., to optimize the website's ranking in search engines.
+
+##  二、使用教程
+## （一）登录与基础设置
+
+* 登录：使用创建站点时设置的管理员账号和密码登录 Go1 CMS 后台。
+
+* 基础设置：登录后，进入 “设置” 模块，在这里可以设置网站的基本信息，如网站名称、标语、LOGO 等；配置 SEO 参数，包括页面标题、元描述、关键词等，以优化网站在搜索引擎中的排名。
+
+master
+
 # 使用页面构建器的英文版由魏毅杰编写 
 ##  User Guide
 ### Using the Page Builder
@@ -353,5 +370,6 @@ master
 * Add Rows and Columns to divide sections and build complex layouts.
 
 master
+
 
 
