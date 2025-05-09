@@ -42,7 +42,7 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
-## 以下介绍补全以及介绍翻译由莫汶颖撰写
+<!-- ## 以下介绍补全以及介绍翻译由莫汶颖撰写
 ## Introduce completions Masters Content Sections Header & Footer Section Design Settings
 #### Masters 
 * Section Groups
@@ -244,4 +244,4 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * 网页主题
 
-* 自定义查询
+* 自定义查询 -->
