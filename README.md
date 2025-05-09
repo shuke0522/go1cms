@@ -42,8 +42,8 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 
 * Footer Templates
 
- master
-<!-- ## 以下介绍补全以及介绍翻译由莫汶颖撰写
+master
+## 以下介绍补全以及介绍翻译由莫汶颖撰写
 ## Introduce completions Masters Content Sections Header & Footer Section Design Settings
 #### Masters 
 * Section Groups
@@ -246,7 +246,38 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 * 网页主题
 
 * 自定义查询 
-=======
+
+ master
+ 
+## 部署步骤中环境准备以及中文翻译部分由唐宇撰写
+##  Deployment steps
+###  Environmental preparation
+* Operating system: Go1 CMS is built on Frappe, Linux system (such as Ubuntu 20.04 and above) is recommended, Windows system may have compatibility issues, and it is not recommended to use it as a production environment.
+* Dependent installation
+* Python: Make sure you have Python 3.7 or later installed on your system. You can check the version number by typing python3 --version in the terminal. If it is not installed, you can use the command sudo apt-get install python3 python3-pip on Ubuntu to install it.
+* Node.js: Install Node.js 14 and above. On Ubuntu systems, you can add and install the Node.js official source with the following command:
+
+* curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+* sudo apt-get install -y nodejs
+
+* MariaDB: The Go1 CMS uses MariaDB as the database and installs MariaDB 10.3 and above. On the Ubuntu system, run the sudo apt-get install mariadb-server installation, and after the installation is complete, use the sudo mysql_secure_installation to configure the security and set the password of the root user.
+* Redis: Install Redis for caching, in Ubuntu system, run sudo apt-get install redis-server to install, and make sure that the Redis service has been started, you can check the service status through sudo systemctl status redis-server.
+
+## 中文翻译
+## 一、部署步骤
+### （一）环境准备
+* 操作系统：Go1 CMS 基于 Frappe 构建，建议使用 Linux 系统（如 Ubuntu 20.04 及以上版本），Windows 系统可能存在兼容性问题，不推荐作为生产环境使用。​
+* 依赖安装
+* Python：确保系统中安装了 Python 3.7 及以上版本。可以通过在终端输入 python3 --version 查看版本号。若未安装，在 Ubuntu 系统中可使用命令 sudo apt-get install python3 python3-pip 进行安装。
+* Node.js：安装 Node.js 14 及以上版本。在 Ubuntu 系统中，可通过以下命令添加 Node.js 官方源并安装：
+
+* curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+* sudo apt-get install -y nodejs
+
+* MariaDB：Go1 CMS 使用 MariaDB 作为数据库，安装 MariaDB 10.3 及以上版本。在 Ubuntu 系统中，执sudo apt-get install mariadb-server 安装，安装完成后，通过 sudo mysql_secure_installation 进行安全配置，设置 root 用户密码等。
+* Redis：安装 Redis 用于缓存，在 Ubuntu 系统中，运行 sudo apt-get install redis-server 进行安装，并确保 Redis 服务已启动，可通过 sudo systemctl status redis-server 查看服务状态。
+
+ master
 
 ## 部署步骤中环境准备以及中文翻译由许治贤撰写
 ## (I) Deployment Steps
@@ -264,4 +295,5 @@ Go1 CMS is proudly part of the Frappe family, born to support many Frappe Commun
 * 创建用户和目录：为了安全和规范，创建一个专门的用户用于运行 Frappe 和 Go1 CMS。在终端输入 sudo useradd -m frappe 创建用户，然后切换到该用户 sudo su - frappe。接着创建项目目录，如 mkdir frappe-bench && cd frappe-bench。
 * 安装 Bench：Bench 是用于管理 Frappe 应用的命令行工具。使用 pip3 install bench 进行安装，安装完成后，初始化 Bench，执行 bench init --frappe-branch version-14（这里以 Frappe 14 版本为例，可根据实际需求调整）。
 * 安装 Go1 CMS：进入 bench 目录后，执行 bench get-app go1_cms https://github.com/[Go1 CMS 仓库地址]（需替换为实际仓库地址）下载 Go1 CMS 应用，然后执行 bench install-app go1_cms 安装应用。
+
 master
